@@ -22,14 +22,11 @@ export default function Navbar() {
     <nav className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/30 backdrop-blur-xl">
       <Container className="flex items-center justify-between py-4">
         <a href="#" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#0B1220] p-2 shadow-lg shadow-blue-500/10">
-            <img
-              src="/logo.png"
-              alt="Precision QA Labs Logo"
-              className="h-7 w-7 object-contain"
-            />
-          </div>
-
+          <img
+            src="/logo.svg"
+            alt="Precision QA Labs Logo"
+            className="h-11 w-11 rounded-2xl shadow-lg shadow-blue-500/20"
+          />
           <div>
             <p className="text-sm font-semibold tracking-wide text-white">
               Precision QA Labs
