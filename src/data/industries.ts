@@ -2,26 +2,26 @@ export const industries = [
   {
     title: "Healthcare Technology",
     description:
-      "Testing complex healthcare workflows, patient platforms, provider systems, and enterprise-grade applications.",
+      "Extensive experience validating patient portals, provider platforms, appointment workflows, messaging systems, authentication flows, and enterprise healthcare ecosystems with a strong focus on reliability, compliance, and user experience.",
   },
   {
-    title: "Media & Advertising",
+    title: "Media & Advertising Platforms",
     description:
-      "Quality engineering for advertising platforms, media systems, and content-driven applications.",
+      "Quality engineering for high-traffic media ecosystems, advertising platforms, digital content delivery systems, campaign workflows, and audience-facing applications requiring scalability and performance validation.",
   },
   {
-    title: "Real Estate Platforms",
+    title: "Real Estate & Property Technology",
     description:
-      "Automation and validation for modern real estate and property management platforms.",
+      "Automation and validation for modern real estate platforms, property management systems, scheduling workflows, dynamic search experiences, and customer-facing transactional applications.",
   },
   {
-    title: "Survey & Data Platforms",
+    title: "Survey, Forms & Data Platforms",
     description:
-      "Reliable testing for dynamic forms, survey systems, reporting, and data-driven applications.",
+      "Robust testing strategies for survey systems, dynamic forms, reporting platforms, analytics workflows, data validation pipelines, and highly interactive user-driven experiences.",
   },
   {
-    title: "Enterprise SaaS",
+    title: "Enterprise SaaS Platforms",
     description:
-      "Scalable quality engineering solutions for modern enterprise software products.",
+      "Scalable quality engineering solutions for enterprise SaaS products, including end-to-end automation, cross-platform validation, API testing, CI/CD integration, and modern release workflows.",
   },
 ];

@@ -9,39 +9,39 @@ import {
 
 export const services = [
   {
-    title: "QA Automation",
+    title: "QA Automation Engineering",
     description:
-      "Modern scalable automation frameworks for reliable software delivery.",
+      "Design and implementation of scalable automation frameworks focused on reliability, maintainability, cross-platform validation, and accelerated software delivery pipelines.",
     icon: Bot,
   },
   {
-    title: "End-to-End Testing",
+    title: "End-to-End Platform Validation",
     description:
-      "Comprehensive validation of critical user workflows and integrations.",
+      "Comprehensive validation of critical business workflows, integrations, authentication systems, user journeys, and enterprise-grade application behavior across web and mobile ecosystems.",
     icon: Workflow,
   },
   {
-    title: "Mobile Automation",
+    title: "Mobile Test Automation",
     description:
-      "Reliable automation solutions for iOS and Android applications.",
+      "Robust automation solutions for iOS and Android applications, including real-device validation, responsive behavior testing, and mobile user experience quality assurance.",
     icon: MonitorSmartphone,
   },
   {
-    title: "AI-Assisted QA",
+    title: "AI-Assisted Quality Engineering",
     description:
-      "Modern AI-powered workflows for faster and smarter automation.",
+      "Modern AI-powered QA workflows leveraging intelligent automation strategies, dynamic test generation, scalable validation patterns, and accelerated testing operations.",
     icon: BrainCircuit,
   },
   {
-    title: "Quality Engineering",
+    title: "Quality Engineering Strategy",
     description:
-      "Automation architecture, QA strategy, and process optimization.",
+      "Engineering-focused QA leadership including automation architecture, release validation strategies, CI/CD integration, process optimization, and scalable testing ecosystems.",
     icon: ClipboardCheck,
   },
   {
-    title: "Enterprise Consulting",
+    title: "Enterprise QA Consulting",
     description:
-      "Scalable quality solutions for modern software teams.",
+      "Strategic consulting services for modern software organizations seeking scalable quality solutions, automation maturity, release confidence, and long-term engineering efficiency.",
     icon: Building2,
   },
 ];
