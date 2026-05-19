@@ -3,12 +3,12 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="relative flex overflow-hidden pt-36 pb-20 md:pb-28">
+    <section className="relative flex overflow-hidden pt-24 pb-20 md:pt-36 md:pb-28">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#2563eb22,transparent_40%)]" />
 
-      <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-blue-500/10 blur-3xl" />
+      <div className="absolute left-1/2 top-0 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-500/10 blur-3xl md:h-[500px] md:w-[500px]" />
 
-      <Container className="relative flex flex-col items-center pt-32 text-center">
+      <Container className="relative flex flex-col items-center pt-6 text-center md:pt-28">
         <div className="mb-8 rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-zinc-300 backdrop-blur-sm">
           Precision QA Labs
         </div>
@@ -24,7 +24,7 @@ export default function Hero() {
           applications through modern automation and quality engineering.
         </p>
 
-        <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+        <div className="mt-8 flex flex-col gap-4 sm:flex-row md:mt-12">
           <Button>
             <a
               href="https://wa.me/19145080709?text=Hi%20Arcadio!%20I%27m%20interested%20in%20Precision%20QA%20Labs%20services."
@@ -40,7 +40,7 @@ export default function Hero() {
           </Button>
         </div>
 
-        <div className="mt-24 grid w-full max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="mt-8 grid w-full max-w-5xl grid-cols-1 gap-6 md:mt-16 md:grid-cols-3">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
             <p className="text-sm text-zinc-400">
               Enterprise QA Experience
