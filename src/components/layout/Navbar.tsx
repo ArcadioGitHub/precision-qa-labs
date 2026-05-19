@@ -44,7 +44,13 @@ export default function Navbar() {
           </a>
 
           <Button className="px-5 py-2.5 text-sm">
-            <a href="#contact">Book a Consultation</a>
+            <a
+              href="https://wa.me/19145080709?text=Hi%20Arcadio!%20I%27m%20interested%20in%20Precision%20QA%20Labs%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a Consultation
+            </a>
           </Button>
         </div>
       </Container>

@@ -23,13 +23,15 @@ export default function ContactCTA() {
                         </p>
 
                         <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
-                            <button>
-                                Get In Touch
-                            </button>
+                            <Button>
+                                <a href="mailto:arcadiobuelvas@gmail.com">
+                                    Get In Touch
+                                </a>
+                            </Button>
 
                             <Button variant="secondary">
                                 <a
-                                    href="https://linkedin.com"
+                                    href="https://www.linkedin.com/in/arcadiobuelvas"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

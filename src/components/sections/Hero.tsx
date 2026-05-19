@@ -26,7 +26,13 @@ export default function Hero() {
 
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
           <Button>
-            <a href="#contact">Book a Consultation</a>
+            <a
+              href="https://wa.me/19145080709?text=Hi%20Arcadio!%20I%27m%20interested%20in%20Precision%20QA%20Labs%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a Consultation
+            </a>
           </Button>
 
           <Button variant="secondary">
