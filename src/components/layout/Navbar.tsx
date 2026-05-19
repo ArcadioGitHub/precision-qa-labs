@@ -23,7 +23,7 @@ export default function Navbar() {
       <Container className="flex items-center justify-between py-4">
         <a href="#" className="flex items-center gap-3">
           <img
-            src="/logo.svg"
+            src="/logo.png"
             alt="Precision QA Labs Logo"
             className="h-11 w-11 rounded-2xl shadow-lg shadow-blue-500/20"
           />
