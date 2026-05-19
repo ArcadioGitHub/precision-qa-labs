@@ -22,22 +22,42 @@ export default function Hero() {
         className="relative w-full"
       >
         <Container className="flex flex-col items-center pt-6 text-center md:pt-28">
-          <div className="mb-8 rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-zinc-300 backdrop-blur-sm">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="mb-8 rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-zinc-300 backdrop-blur-sm"
+          >
             Precision QA Labs
-          </div>
+          </motion.div>
 
-          <h1 className="max-w-6xl text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-7xl md:leading-[1.1]">
+          <motion.h1
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="max-w-6xl text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-7xl md:leading-[1.1]"
+          >
             Modern QA Automation
             <br />
             & Quality Engineering
-          </h1>
+          </motion.h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-zinc-400 md:text-xl">
+          <motion.p
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.35 }}
+            className="mt-8 max-w-2xl text-lg leading-relaxed text-zinc-400 md:text-xl"
+          >
             Helping software teams build scalable, reliable, and high-quality
             applications through modern automation and quality engineering.
-          </p>
+          </motion.p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row md:mt-12">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.5 }}
+            className="mt-8 flex flex-col gap-4 sm:flex-row md:mt-12"
+          >
             <Button>
               <a
                 href={whatsappLink}
@@ -51,7 +71,7 @@ export default function Hero() {
             <Button variant="secondary">
               <a href="#services">View Services</a>
             </Button>
-          </div>
+          </motion.div>
 
           <div className="mt-8 grid w-full max-w-5xl grid-cols-1 gap-6 md:mt-16 md:grid-cols-3">
             {[
@@ -65,10 +85,10 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                   duration: 0.6,
-                  delay: 0.25 + index * 0.12,
+                  delay: 0.65 + index * 0.12,
                   ease: "easeOut",
                 }}
-                className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm"
+                className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:bg-white/[0.07]"
               >
                 <p className="text-sm text-zinc-400">{label}</p>
 
