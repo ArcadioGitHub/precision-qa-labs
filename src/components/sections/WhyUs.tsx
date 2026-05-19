@@ -6,7 +6,7 @@ import { whyUs } from "@/data/whyus";
 export default function WhyUs() {
     return (
         <section className="relative border-t border-white/5 py-20 md:py-24">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,#2563eb10,transparent_50%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#2563eb10,transparent_45%)] md:bg-[radial-gradient(circle_at_right,#2563eb10,transparent_50%)]" />
             <Container className="relative">
                 <div className="grid items-center gap-20 lg:grid-cols-2">
                     <div>
