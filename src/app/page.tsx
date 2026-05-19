@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect } from "react";
+
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
@@ -9,6 +13,11 @@ import WhyUs from "@/components/sections/WhyUs";
 import ContactCTA from "@/components/sections/ContactCTA";
 
 export default function Home() {
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main>
       <Navbar />
